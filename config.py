@@ -103,10 +103,11 @@ keys = [
         "f",
         [
             Key([], "b", lazy.spawn(f"jumpapp {BROWSER}"), desc="Jump to Browser"),
-            Key([], "q", lazy.spawn("jumpapp qutebrowser"), desc="Jump to Browser"),
+            Key([], "c", lazy.spawn("jumpapp code"), desc="Jump to VS Code"),
             Key([], "n", lazy.spawn("jumpapp logseq"), desc="Jump to LogSeq"),
             Key([], "m", lazy.spawn("jumpapp mpv"), desc="Jump to MPV"),
-            Key([], "c", lazy.spawn("jumpapp code"), desc="Jump to VS Code"),
+            Key([], "q", lazy.spawn("jumpapp qutebrowser"), desc="Jump to Browser"),
+            Key([], "t", lazy.spawn(f"jumpapp {TERMINAL}"), desc=f"Jump to {TERMINAL}"),
         ],
         desc="Find Applications",
     ),
