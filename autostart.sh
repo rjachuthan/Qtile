@@ -5,6 +5,7 @@ syncthing --no-browser &
 syncthingtray &
 qtile run-cmd -g 1 thorium-browser &
 qtile run-cmd -g 2 logseq &
+qtile run-cmd -g 3 qutebrowser www.youtube.com &
 picom &
 
 # starting utility applications at boot time
