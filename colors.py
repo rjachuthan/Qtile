@@ -13,7 +13,7 @@ def dracula() -> tuple[list[list[str]], str, str, str, str]:
         ["#f1fa8c", "#f1fa8c"],  # yellow [10]
     ]
 
-    backgroundColor = "#282a36"
+    backgroundColor = "#000000"
     foregroundColor = "#f8f8f2"
     workspaceColor = "#bd93f9"
     foregroundColorTwo = "#44475a"
@@ -41,7 +41,7 @@ def everforest() -> tuple[list[list[str]], str, str, str, str]:
         ["#D5C9AB", "#D5C9AB"],  # beige [10]
     ]
 
-    backgroundColor = "#2B3339"
+    backgroundColor = "#000000"
     foregroundColor = "#D5C9AB"
     workspaceColor = "#A7C080"
     foregroundColorTwo = "#7c8377"
@@ -70,7 +70,7 @@ def doomone() -> tuple[list[list[str]], str, str, str, str]:
         ["#ecbe7b", "#ecbe7b"],  # yellow [10]
     ]
 
-    backgroundColor = "#282a36"
+    backgroundColor = "#000000"
     foregroundColor = "#bbc2cf"
     workspaceColor = "#51afef"
     foregroundColorTwo = "#44475a"
@@ -98,7 +98,7 @@ def nord() -> tuple[list[list[str]], str, str, str, str]:
         ["#ebcb8b", "#ebcb8b"],  # yellow [10]
     ]
 
-    backgroundColor = "#2e3440"
+    backgroundColor = "#000000"
     foregroundColor = "#d8dee9"
     workspaceColor = "#a3be8c"
     foregroundColorTwo = "#4c566a"
@@ -127,7 +127,7 @@ def gruvbox() -> tuple[list[list[str]], str, str, str, str]:
         ["#504945", "#504945"],  # yellow [11]
     ]
 
-    backgroundColor = "#282828"
+    backgroundColor = "#000000"
     foregroundColor = "#ebddb2"
     workspaceColor = "#b8bb26"
     foregroundColorTwo = "#928375"
@@ -185,7 +185,7 @@ def catppuccin() -> tuple[list[list[str]], str, str, str, str]:
         ["#e5c890", "#e5c890"],  # yellow [10]
     ]
 
-    backgroundColor = "#232634"
+    backgroundColor = "#000000"
     foregroundColor = "#c6d0f5"
     workspaceColor = "#e5c890"
     foregroundColorTwo = "#babbf1"
@@ -213,7 +213,7 @@ def moonfly() -> tuple[list[list[str]], str, str, str, str]:
         ["#e3c78a", "#e3c78a"],  # yellow [10]
     ]
 
-    backgroundColor = "#080808"
+    backgroundColor = "#000000" # "#080808"
     foregroundColor = "#b2b2b2"
     workspaceColor = "#e3c78a"
     foregroundColorTwo = "#9e9e9e"
@@ -241,7 +241,7 @@ def retro() -> tuple[list[list[str]], str, str, str, str]:
         ["#FF8E1F", "#FF8E1F"],  # yellow [10]
     ]
 
-    backgroundColor = "#160B00"
+    backgroundColor = "#000000"
     foregroundColor = "#DE7B1B"
     workspaceColor = "#DE7B1B"
     foregroundColorTwo = "#DE7B1B"
@@ -302,7 +302,7 @@ def fraggle() -> tuple[list[list[str]], str, str, str, str]:
         ["#62696d", "#62696d"],  # yellow [10]
     ]
 
-    backgroundColor = "#1f272e"
+    backgroundColor = "#000000"
     foregroundColor = "#a5a9ab"
     workspaceColor = "#3f8696"
     foregroundColorTwo = "#62696d"
@@ -331,7 +331,7 @@ def monokai() -> tuple[list[list[str]], str, str, str, str]:
         ["#363537", "#363537"],  # yellow [10]
     ]
 
-    backgroundColor = "#363537"
+    backgroundColor = "#000000"
     foregroundColor = "#fdf9f3"
     workspaceColor = "#3f8696"
     foregroundColorTwo = "#62696d"
