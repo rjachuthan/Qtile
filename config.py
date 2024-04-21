@@ -102,6 +102,7 @@ keys = [
         [MOD],
         "f",
         [
+            Key([], "a", lazy.spawn("jumpapp anki"), desc="Jump to Anki"),
             Key([], "b", lazy.spawn(f"jumpapp {BROWSER}"), desc="Jump to Browser"),
             Key([], "c", lazy.spawn("jumpapp code"), desc="Jump to VS Code"),
             Key([], "n", lazy.spawn("jumpapp logseq"), desc="Jump to LogSeq"),
