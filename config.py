@@ -18,9 +18,10 @@ from libqtile.config import (
 from libqtile.lazy import lazy
 
 from colors import moonfly as themecolor
+from utils import truncate_text
 
 MOD: str = "mod4"
-TERMINAL: str = "kitty"
+TERMINAL: str = "wezterm"
 BROWSER: str = "thorium-browser"
 FONT: str = "JetBrainsMono NF"
 FONTSIZE: int = 10
@@ -206,27 +207,6 @@ extension_defaults = widget_defaults.copy()
 
 txt_icon = partial(widget.TextBox, fontsize=20, font=FONT, foreground=colors[7])
 
-
-def truncate_text(text: str, length: int = 30) -> str:
-    """
-    Truncates the given text to a maximum length of `length` characters.
-    - If the `text` is longer than `length`, it truncates the text and appends
-      '...' to the truncated text.
-    - If the `text` is shorter than `length`, it pads the text with spaces to
-      make it `length` characters long.
-
-    Args:
-        text (str): The text to be truncated.
-        length (int, optional): The maximum length of the truncated text.
-            Defaults to 30.
-
-    Returns:
-        str: The truncated text.
-    """
-    shortend = text[: length - 3]
-    return f"{shortend}..." if len(text) > length else text.ljust(length)
-
-
 widget_list = [
     widget.CurrentLayoutIcon(
         scale=0.6,
@@ -309,7 +289,7 @@ widget_list = [
     # txt_icon(text=""),
     widget.Volume(
         font=FONT,
-        fontsize=(FONTSIZE+4),
+        fontsize=(FONTSIZE + 4),
         foreground=foregroundColor,
         emoji=True,
         padding=5,
