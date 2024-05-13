@@ -21,7 +21,7 @@ from colors import moonfly as themecolor
 from utils import truncate_text
 
 MOD: str = "mod4"
-TERMINAL: str = "wezterm"
+TERMINAL: str = "kitty"
 BROWSER: str = "thorium-browser"
 FONT: str = "JetBrainsMono NF"
 FONTSIZE: int = 10
@@ -106,7 +106,10 @@ keys = [
             Key([], "a", lazy.spawn("jumpapp anki"), desc="Jump to Anki"),
             Key([], "b", lazy.spawn(f"jumpapp {BROWSER}"), desc="Jump to Browser"),
             Key([], "c", lazy.spawn("jumpapp code"), desc="Jump to VS Code"),
+            Key([], "d", lazy.spawn("jumpapp discord"), desc="Jump to Discord"),
+            Key([], "f", lazy.spawn("jumpapp thunar"), desc="Jump to File Explorer"),
             Key([], "n", lazy.spawn("jumpapp logseq"), desc="Jump to LogSeq"),
+            Key([], "o", lazy.spawn("jumpapp obsidian"), desc="Jump to Obsidian"),
             Key([], "m", lazy.spawn("jumpapp mpv"), desc="Jump to MPV"),
             Key([], "q", lazy.spawn("jumpapp qutebrowser"), desc="Jump to Browser"),
             Key([], "t", lazy.spawn(f"jumpapp {TERMINAL}"), desc=f"Jump to {TERMINAL}"),
