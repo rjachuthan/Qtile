@@ -5,6 +5,8 @@ syncthing --no-browser &
 syncthingtray &
 qtile run-cmd -g 1 thorium-browser &
 qtile run-cmd -g 2 logseq &
+qtile run-cmd -g 2 obsidian &
+qtile run-cmd -g 5 discord &
 qtile run-cmd -g 8 anki &
 # qtile run-cmd -g 3 qutebrowser www.youtube.com &
 picom &
