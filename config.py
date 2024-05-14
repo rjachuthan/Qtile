@@ -48,7 +48,11 @@ def autostart() -> None:
         None
     """
     home = os.path.expanduser("~")
-    subprocess.Popen([f"{home}/.config/qtile/autostart.sh"])
+    script_path = f"{home}/.config/qtile/autostart.sh"
+    if os.path.isfile(path=script_path):
+        subprocess.Popen(args=[script_path])
+    else:
+        print("Script not found or not executable")
 
 
 # A list of available commands that can be bound to keys can be found
